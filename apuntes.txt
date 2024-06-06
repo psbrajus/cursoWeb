@@ -1,0 +1,5 @@
+HTML:
+
+PRINCIPAL ETIQUETA HTML
+en head, se enlazan otros archivos, css, js, favicon, titulos y descripciones, SEO Importante!
+todo es META INFORMACION
