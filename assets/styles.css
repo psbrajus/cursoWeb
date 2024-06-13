@@ -5,8 +5,13 @@ body {
 h1 {
   color: green;
 }
+iframe {
+  width: 80%;
+  height: 600px;
+}
 
-img {
+img,
+video {
   max-width: 100%; /* ocupa el 100 de la pantalla*/
   height: auto; /*pongo que la altura se calcule, para que no se deforme la imagen*/
 }
