@@ -57,6 +57,8 @@
       <li><a href="#audio-video">Audio y Video</a></li>
       <li><a href="#iframes">Iframes</a></li>
       <li><a href="#formularios">Elementos de Formularios</a></li>
+      <li><a href="#formularios-inputs">Formularios e Inputs</a></li>
+      <li><a href="#selects-radios-checkboxs">Selects, radios y checksbox</a></li>
       
     </ul>
 
@@ -500,8 +502,57 @@
 <input type="submit">
 <br>
 <input type="file" multiple>
+<br>
+<input type="email">
+<br>
+<input type="number">
+<br>
+<input type="">
+<br>
+<input type="password">
+<br>
+<input type="search">
+<br>
+<textarea name="escribir aqui" id="caja"></textarea>
+<br>
+<select name="CURSOS" id="CURSITOS">SELECCIONE UN CURSO<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+<option value="JAVASCRIPT">JAVASCRIPT</option></select>
+<hr>
+<h2 id="formularios-inputs">Formularios e Inputs</h2>
+<h3>Ejemplo de formularios</h3>
+<h4>Formulario de Login</h4>
+<p>Metodo get y post, get es el predetemrinado, envia por la url los valores, post esta oculto, sin atributo action, el formulario se va a autoprocesar, en el ambito profesional, el manejo de los forms se hace con javascript y via ajax, apis, etc</p>
+<form action="https://jhonmircha.com/enviarform.php" method="post">
+  <label for="usuario">Usuario</label>
+  <input type="text" name="usuario" placeholder="Usuario" id="usuario" required>
+  <br>
+  <label for="password">Password</label>
+  <input type="password" name="password" placeholder="Contrasenia" id="password" required>
+  <br>
+  <input type="submit">
+  <br>
+  <input type="reset">
+</form>
+<hr>
+<h2 id="selects-radios-checkboxs">Selects, Radios y Checkboxs</h2>
+<form >
+  <p>Elige tu idioma</p>
+  <select name="idioma" id="" requerid>
+    <option value="">Elige una opcion</option>
+    <option value="es">Espaniol</option>
+    <option value="en">Ingles</option>
+    <option value="fr">Frances</option>
+    <option value="br">Portuges</option>
+    <option value="it">Italiano</option>
+    <input type="submit">
+    <input type="reset">
+  </select>
 
 
+
+
+</form>
 
 
 
