@@ -25,3 +25,10 @@ h1 {
   color: blue;
   background-color: aqua;
 }
+
+/*Selectores basicos
+1 - etiquetas : Son elementos HTML
+2 - Identificadores - Se accede atraves del atributo html con el simbolo # 
+3 - clases - Se accede atraves del atributo HTML class, y en css con el simbolo del .
+
+*/
