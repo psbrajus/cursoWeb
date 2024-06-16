@@ -1,0 +1,27 @@
+/*Regla CSS, consta de dos partes
+1 el selector etiqueta, ides, clases, de clase, etc
+2 bloque de declaracion  es cada uno de los atributos que vamos a modificar 
+atributo:valor;
+nombre-del-atributo : Valor; 
+el bloque se define por {}
+Por ejemplo: 
+
+h1{
+color:red;
+bakcground-color:yellow;
+
+el selector es h1
+el bloque de dclaracion son todos los atributos y valores encerrados entre corchetes
+en el ejemplo anteior los atributos son color y background-color, los valores son red y yellow
+
+*/
+
+/*es una mala practica utilizar el import 
+las @import son bloqueantesm hasta que no carga toda esa hoja, no sigue cargando los archivos de la pagina
+RETRASA LA CARGA 
+*/
+@import url(otrahojacss.css);
+h1 {
+  color: blue;
+  background-color: aqua;
+}
