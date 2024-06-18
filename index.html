@@ -59,6 +59,7 @@
       <li><a href="#formularios">Elementos de Formularios</a></li>
       <li><a href="#formularios-inputs">Formularios e Inputs</a></li>
       <li><a href="#selects-radios-checkboxs">Selects, radios y checksbox</a></li>
+      <li><a href="#formularios-contacto">Formularios de contacto</a></li>
       
     </ul>
 
@@ -538,21 +539,39 @@
 <h2 id="selects-radios-checkboxs">Selects, Radios y Checkboxs</h2>
 <form >
   <p>Elige tu idioma</p>
-  <select name="idioma" id="" requerid>
+  <select name="idioma"  requerid>
     <option value="">Elige una opcion</option>
     <option value="es">Espaniol</option>
     <option value="en">Ingles</option>
-    <option value="fr">Frances</option>
+    <option value="fr"  >Frances</option>
     <option value="br">Portuges</option>
     <option value="it">Italiano</option>
-    <input type="submit">
-    <input type="reset">
+    
   </select>
-
-
-
-
+  <p>Elige tu lenguaje de programacion favorito</p>
+  <input type="radio" name="lenguaje" id="radio-js" value="js"  >
+  <label for="radio-js">JavaScript</label>
+    <input type="radio" name="lenguaje" id="radio-python" value="py">
+  <label for="radio-python">Python</label>
+    <input type="radio" name="lenguaje" id="radio-java" value="java" >
+  <label for="">Java</label>
+    <input type="radio" name="lenguaje" id="radio-c" value="c">
+  <label for="">C</label>
+  <p>Elige tus intereses</p>
+  <label >
+    <input type="checkbox" name="intereses" value="deportes">
+    Deportes
+     <input type="checkbox" name="intereses" value="finanzas">
+    Finanzas
+     <input type="checkbox" name="intereses" value="salud">
+    Salud
+  </label>
+  <input type="submit">
+  <input type="reset">
 </form>
+<hr>
+<h2 id="formularios-contacto">Formularios de contacto</h2>
+
 
 
 

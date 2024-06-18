@@ -10,15 +10,20 @@
       }
     </style>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body>
-    <h1>Aprendiendo de css</h1>
+    <h1 id="temario">Aprendiendo de css</h1>
     <p><i>Cascading Style Sheets</i> -Hojas de estilos en cascada</p>
-    <h2 id="temario">Temario</h2>
+    <h2 >Temario</h2>
     <ul>
       <li><a href="#invocacion">Formas de invocar css</a></li>
       <li><a href="#selectores-basicos"> Selectores básicos: Etiquetas, Identificadores y Clases</a></li>
-      <li><a href=""></a></li>
+      <li><a href="#selectores-avanzados">Selectores Avanzados</a></li>
       <li><a href=""></a></li>
       <li><a href=""></a></li>
       <li><a href=""></a></li>
@@ -51,8 +56,45 @@
   <hr>
   <article>
     <h2 id="selectores-basicos">Selectores Basicos</h2>
+    <p>
+      <pre>/*Selectores basicos
+1 - etiquetas : Son elementos HTML
+2 - Identificadores - Se accede atraves del atributo html con el simbolo # 
+3 - clases - Se accede atraves del atributo HTML class, y en css con el simbolo del .</pre>
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum est facilis corporis cumque nam ut dolor quia! Nulla, cum. Odit saepe tempore esse nobis eius laudantium repellendus facere labore.</p>
+<br>
+<p id="parrafo-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, odit iste error quia vero ea fuga neque aperiam quibusdam illo laudantium nostrum asperiores culpa perspiciatis, nam molestias? Tempora, voluptas non.</p>
+<br>
+<p class="text-32 bg-skyblue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus pariatur omnis repellendus inventore rem quas eius nobis est dolores temporibus quisquam corrupti quia placeat sed, aliquid maxime, exercitationem architecto blanditiis!</p>
+
+<p class="text-20 bg-steelblue text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus pariatur omnis repellendus inventore rem quas eius nobis est dolores temporibus quisquam corrupti quia placeat sed, aliquid maxime, exercitationem architecto blanditiis!</p>
+<br>
+<p class="text-32 bg-steelblue ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta libero temporibus mollitia maiores animi illum neque, earum aut ratione sint in dolor odit doloremque maxime! Laudantium odio eaque esse vitae.</p>
   </article>
   <a href="index.html#temario">Volver al inicio</a>
+<hr>
+<h2 id="selectores-avanzados">Selectores Avanzados</h2>
+<h3>Selectores de hijos</h3>
+<h4>Selector de hijo directo</h4>
+<p>Es el primer elemento , en el primer nivel, luego del hijo padre, en el siguiente caso el ul es el padre y las li son los hijos directos</p>
+<ul class="hijos-directos">
+  <li><b>Primavera</b></li>
+  <li><b>Verano</b></li>
+  <li><b>Otonio</b></li>
+  <li><b>Invierno</b></li>
+</ul>
+<h4>Selector de hijos descendientes</h4>
+<ul class="hijos-descendientes">
+  <li><b>Primavera</b></li>
+  <li><b>Verano</b></li>
+  <li><b>Otonio</b></li>
+  <li><b>Invierno</b></li>
+</ul>
+<article>
+  
+</article>
+ <a href="index.html#temario">Volver al inicio</a>
   
   </body>
 </html>

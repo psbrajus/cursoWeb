@@ -32,3 +32,43 @@ h1 {
 3 - clases - Se accede atraves del atributo HTML class, y en css con el simbolo del .
 
 */
+
+p {
+  color: midnightblue;
+}
+
+/*es una mala practica,se coincidera un antipatron */
+#parrafo-2 {
+  background-color: skyblue;
+}
+
+/* dar estilo con clases nos permite retuilizar nuestro codigo css */
+.text-20 {
+  font-size: 20px;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.bg-skyblue {
+  background-color: skyblue;
+}
+.bg-steelblue {
+  background-color: steelblue;
+}
+
+.text-white {
+  color: white;
+}
+
+/*aplicar estilos a hijos directos, se utiliza > */
+
+.hijos-directos > li {
+  background-color: thistle;
+}
+
+/*aplicar estilos a descendientes, se utiliza (espacio) */
+.hijos-descendientes b {
+  background-color: thistle;
+}
