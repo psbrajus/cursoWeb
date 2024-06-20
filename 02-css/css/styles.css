@@ -72,3 +72,29 @@ p {
 .hijos-descendientes b {
   background-color: thistle;
 }
+
+/*los selectores de hermanos van a aplicar a los elementos que son hermanos y que esten por debajo del elemento de referencia */
+.hermanos-general ~ li {
+  background-color: thistle;
+}
+
+/*los selectores de hermanos adyacentes aplicaran estilo  a los hermanos, y solo a ellos, que estan de bajo del referencia*/
+
+.hermanos-adyacentes + li {
+  background-color: thistle;
+}
+
+/* Selectores de atributos */
+.selectores-atributos a[href] {
+  color: orangered;
+}
+
+.selectores-atributos a[target="_blank"] {
+  font-weight: bold;
+}
+
+/*el comodin *  aplica el estilo al atributo que contenga la palabra*/
+
+.selectores-atributos a[href*="jonmircha"] {
+  font-size: 24px;
+}
