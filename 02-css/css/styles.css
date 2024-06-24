@@ -93,8 +93,67 @@ p {
   font-weight: bold;
 }
 
-/*el comodin *  aplica el estilo al atributo que contenga la palabra*/
+/*el comodin *  aplica el estilo al atributo que contiene el texto en cuestion*/
 
 .selectores-atributos a[href*="jonmircha"] {
   font-size: 24px;
+}
+
+/*el comodin *  aplica el estilo al atributo que comienza con el texto*/
+.selectores-atributos a[href^="http://"]
+{
+  text-decoration: none;
+}
+
+/*el comodin *  aplica el estilo al atributo que finaliza con el texto*/
+.selectores-atributos a[href$="hola"] {
+  text-decoration: none;
+}
+
+/* va a buscar la palabra en class , el comodin es ~, en una lista separada por espacios en class */
+.selectores-atributos a[class~="cursos"] {
+  background-color: midnightblue;
+}
+
+/* va a buscar la palabra en class , el comodin es |, en una lista separada por espacios en class y que dpeues del texto en cuestion pueda venir un -  */
+.selectores-atributos a[class|="menu"] {
+  font-style: italic;
+}
+
+/*--------------------------OTRA SECCION ----------------------------------- */
+
+/*SELECTOR UNIVERSAL */
+* {
+  font-family: sans-serif;
+}
+
+.selector-universal * {
+  font-size: 24px;
+}
+/*--------------------------OTRA SECCION ----------------------------------- */
+
+/*---------------PSEUDOCLASES DE ESTADO-------------------------------- */
+/*
+Hay muchas psdeudoclses, aplican estilo a los elementos segun contexto, estado, etc
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
+*/
+
+.form-pseudoclases *:required {
+  border-color: yellow;
+}
+
+.form-pseudoclases *:valid {
+  border-color: green;
+}
+
+.form-pseudoclases *:focus {
+  border-color: skyblue;
+}
+
+.prueba-hover:hover {
+  color: green;
+}
+
+.pseudoclase-aumentar:hover {
+  font-size: 20px;
 }
